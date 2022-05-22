@@ -1,0 +1,14 @@
+.stats {
+    display: flex;
+    flex-direction: column;
+}
+
+span {
+    color: var(--secondary-font-color);
+    font-size: 25px;
+    font-weight: 700;
+}
+
+span:not(:last-child) {
+    margin-bottom: 20px;
+}
